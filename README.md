@@ -36,7 +36,7 @@ S.No.	Initial State	Condition	Final state	Description of action taken
     Best First Search falls under the category of Heuristic Search or Informed Search.It uses the combination of Depth First and Breadth First Search.
     This example is Considered to Find the Desired Solution:
     
-![alt txt]('https://media.geeksforgeeks.org/wp-content/uploads/BFS2.png')
+![alt txt](https://media.geeksforgeeks.org/wp-content/uploads/BFS2.png)
 Analysis : 
 
 * The worst-case time complexity for Best First Search is O(n * log n) where n is the number of nodes. In the worst case, we may have to visit all nodes before we reach goal. Note that priority queue is implemented using Min(or Max) Heap, and insert and remove operations take O(log n) time.
@@ -56,4 +56,4 @@ Analysis :
       The function h is an estimate of the additional cost of getting from the current node N to the goal node. 
       This is the place where knowledge about the problem domain is exploited. 
       Generally, the A* algorithm is called OR graph/tree search algorithm.
-![alt txt]('https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png')
+![alt txt](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png)
