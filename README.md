@@ -57,3 +57,22 @@ Analysis :
       This is the place where knowledge about the problem domain is exploited. 
       Generally, the A* algorithm is called OR graph/tree search algorithm.
 ![alt txt](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png)
+![alt txt](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-8.png)
+## Ques 5: Simple Hill Climbing 
+
+* Hill climbing algorithm is a local search algorithm which continuously moves in the direction of increasing elevation/value to find the peak of the mountain or best solution to the problem. It terminates when it reaches a peak value where no neighbor has a higher value.
+* Hill climbing algorithm is a technique which is used for optimizing the mathematical problems. One of the widely discussed examples of Hill climbing algorithm is Traveling-salesman Problem in which we need to minimize the distance traveled by the salesman.
+* It is also called greedy local search as it only looks to its good immediate neighbor state and not beyond that.
+* A node of hill climbing algorithm has two components which are state and value.
+* Hill Climbing is mostly used when a good heuristic is available.
+* In this algorithm, we don't need to maintain and handle the search tree or graph as it only keeps a single current state.
+
+### Features of Hill Climbing
+  Following are some main features of Hill Climbing Algorithm:
+
+* Generate and Test variant: Hill Climbing is the variant of Generate and Test method. The Generate and Test method produce feedback which helps to decide which direction to move in the search space.
+* Greedy approach: Hill-climbing algorithm search moves in the direction which optimizes the cost.
+* No backtracking: It does not backtrack the search space, as it does not remember the previous states.
+
+        In the given problem we are considering a matrix filled with random value and the user is asked to give the starting co-ordinates the
+          code will reach the final solution once no moves are left 
