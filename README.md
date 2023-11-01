@@ -1,7 +1,10 @@
 # AI Practical File-2021UIT3022
 
 ## Ques 1: Tic Tac Toe:
-## Ques 2: Water Jug Problem
+## Ques 2: Tile Puzzle Problem
+![alt txt](https://cms-media.bartleby.com/wp-content/uploads/sites/2/2021/12/07124921/IMG-20211206-WA0022-894x1024.jpg)
+
+## Ques 3: Water Jug Problem
     we are provided with two jugs: one having the capacity to hold 3 gallons of water and the other has the capacity to hold 4 gallons of water. 
     There is no other measuring equipment available and the jugs also do not have any kind of marking on them. 
     So, the agent’s task here is to fill the 4-gallon jug with 2 gallons 
@@ -29,7 +32,7 @@ S.No.	Initial State	Condition	Final state	Description of action taken
     5.	4 gallons	2 gallons	Rule no. 7
     6.	0 gallon	2 gallons	Rule no. 5
     7.	2 gallons	0 gallon	Rule no. 9
-## Ques-3:Best First Search
+## Ques-4:Best First Search
     This Program is Written in Cpp
     
     The idea of Best First Search is to use an evaluation function to decide which adjacent is most promising and then explore.
@@ -44,7 +47,7 @@ Analysis :
 * The worst-case time complexity for Best First Search is O(n * log n) where n is the number of nodes. In the worst case, we may have to visit all nodes before we reach goal. Note that priority queue is implemented using Min(or Max) Heap, and insert and remove operations take O(log n) time.
 * The performance of the algorithm depends on how well the cost or evaluation function is designed.
 
-  ## Ques-4: A*Algorithm:
+  ## Ques-5: A*Algorithm:
       A*Algorithm (pronounced as A-star) is a combination of ‘branch and bound search algorithm’ and ‘best search algorithm’
       combined with the dynamic programming principle.
       The A* Algorithm is well-known because it is used for locating path and graph traversals.
@@ -62,7 +65,7 @@ Analysis :
       Generally, the A* algorithm is called OR graph/tree search algorithm.
 ![alt txt](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-example-graph.png)
 ![alt txt](https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-8.png)
-## Ques 5: Simple Hill Climbing 
+## Ques 6: Simple Hill Climbing 
 
 * Hill climbing algorithm is a local search algorithm which continuously moves in the direction of increasing elevation/value to find the peak of the mountain or best solution to the problem. It terminates when it reaches a peak value where no neighbor has a higher value.
 * Hill climbing algorithm is a technique which is used for optimizing the mathematical problems. One of the widely discussed examples of Hill climbing algorithm is Traveling-salesman Problem in which we need to minimize the distance traveled by the salesman.
