@@ -1,6 +1,7 @@
 # AI Practical File-2021UIT3022
 
 ## Ques 1: Tic Tac Toe:
+![alt txt](https://miro.medium.com/max/7000/1*lp2_TjdcFI4CtLjBsJFTRw.png)
 ## Ques 2: Tile Puzzle Problem
 ![alt txt](https://cms-media.bartleby.com/wp-content/uploads/sites/2/2021/12/07124921/IMG-20211206-WA0022-894x1024.jpg)
 
