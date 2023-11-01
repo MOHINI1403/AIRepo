@@ -3,7 +3,8 @@
 ## Ques 1: Tic Tac Toe:
 ## Ques 2: Water Jug Problem
     we are provided with two jugs: one having the capacity to hold 3 gallons of water and the other has the capacity to hold 4 gallons of water. 
-    There is no other measuring equipment available and the jugs also do not have any kind of marking on them. So, the agent’s task here is to fill the 4-gallon jug with 2 gallons 
+    There is no other measuring equipment available and the jugs also do not have any kind of marking on them. 
+    So, the agent’s task here is to fill the 4-gallon jug with 2 gallons 
     of water by using only these two jugs and no other material. Initially, both our jugs are empty.
 
 S.No.	Initial State	Condition	Final state	Description of action taken
@@ -33,7 +34,8 @@ S.No.	Initial State	Condition	Final state	Description of action taken
     
     The idea of Best First Search is to use an evaluation function to decide which adjacent is most promising and then explore.
 
-    Best First Search falls under the category of Heuristic Search or Informed Search.It uses the combination of Depth First and Breadth First Search.
+    Best First Search falls under the category of Heuristic Search or Informed Search.
+    It uses the combination of Depth First and Breadth First Search.
     This example is Considered to Find the Desired Solution:
     
 ![alt txt](https://media.geeksforgeeks.org/wp-content/uploads/BFS2.png)
@@ -43,9 +45,11 @@ Analysis :
 * The performance of the algorithm depends on how well the cost or evaluation function is designed.
 
   ## Ques-4: A*Algorithm:
-      A*Algorithm (pronounced as A-star) is a combination of ‘branch and bound search algorithm’ and ‘best search algorithm’ combined with the dynamic programming principle.
+      A*Algorithm (pronounced as A-star) is a combination of ‘branch and bound search algorithm’ and ‘best search algorithm’
+      combined with the dynamic programming principle.
       The A* Algorithm is well-known because it is used for locating path and graph traversals.
-      This algorithm is used in numerous online maps and games. It uses a heuristic or evaluation function usually denoted by f(X) to determine the order
+      This algorithm is used in numerous online maps and games. It uses a heuristic or evaluation
+      function usually denoted by f(X) to determine the order
       in which the search visits nodes in the tree. The heuristic function for a node N is defined as
 
 
@@ -74,5 +78,5 @@ Analysis :
 * Greedy approach: Hill-climbing algorithm search moves in the direction which optimizes the cost.
 * No backtracking: It does not backtrack the search space, as it does not remember the previous states.
 
-        In the given problem we are considering a matrix filled with random value and the user is asked to give the starting co-ordinates the
-          code will reach the final solution once no moves are left 
+        In the given problem we are considering a matrix filled with random value and the user is asked to give
+      the starting co-ordinates the code will reach the final solution once no moves are left 
